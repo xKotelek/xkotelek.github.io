@@ -33,9 +33,11 @@
   <body>
     <a href="https://kotelek.dev">xKotelek</a>
     <script>
-      settimeout(function() {
-        window.location.href="https://kotelek.dev";
-      }, 1000)
+      window.onload = function () {
+        setTimeout(() => {
+          window.location.href = "https://kotelek.dev";
+        }, 1000);
+      };
     </script>
   </body>
 </html>
